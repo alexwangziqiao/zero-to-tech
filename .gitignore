@@ -1,5 +1,19 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+dist/
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+
+# misc
 .DS_Store
-backend/__pycache__/
-*.pyc
-node_modules
-dist
+*.log
+.env*
